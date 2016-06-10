@@ -1,0 +1,472 @@
+﻿Build started 10-Jun-16 11:46:23 AM.
+     1>Project "I:\Desktop\ONGC\hello_code\hello_code\hello_code.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Microsoft Visual Studio\VC\bin\CL.exe /c /Ic:\CoinDir /IC:\CoinDir\bin /IC:\CoinDir\Include\Inventor /IC:\CoinDir\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D COIN_DLL /D SOWIN_DLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt Curves.cpp
+         Curves.cpp
+         Note: including file: C:\CoinDir\include\Inventor/nodes/SoCoordinate3.h
+         Note: including file:  C:\CoinDir\include\Inventor/nodes/SoSubNode.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt.h
+         Note: including file:     F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\sal.h
+         Note: including file:       F:\Microsoft Visual Studio\VC\include\ConcurrencySal.h
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\vadefs.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_memory.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_memcpy_s.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\errno.h
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\vcruntime_string.h
+         Note: including file:       F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstring.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbName.h
+         Note: including file:    C:\CoinDir\include\Inventor/SbBasic.h
+         Note: including file:     C:\CoinDir\include\Inventor/C/basic.h
+         Note: including file:      C:\CoinDir\include\Inventor/system/inttypes.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\sys/types.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stddef.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h
+         Note: including file:   C:\CoinDir\include\Inventor/SoType.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdlib.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_malloc.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_search.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstdlib.h
+         Note: including file:     F:\Microsoft Visual Studio\VC\include\limits.h
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:    C:\CoinDir\include\Inventor/SbDict.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoFieldData.h
+         Note: including file:    C:\CoinDir\include\Inventor/lists/SbList.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\assert.h
+         Note: including file:   C:\CoinDir\include\Inventor/nodes/SoNode.h
+         Note: including file:    C:\CoinDir\include\Inventor/fields/SoFieldContainer.h
+         Note: including file:     C:\CoinDir\include\Inventor/misc/SoBase.h
+         Note: including file:      C:\CoinDir\include\Inventor/lists/SoAuditorList.h
+         Note: including file:       C:\CoinDir\include\Inventor/lists/SbPList.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\assert.h
+         Note: including file:       C:\CoinDir\include\Inventor/misc/SoNotification.h
+         Note: including file:        C:\CoinDir\include\Inventor/misc/SoNotRec.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstdio.h
+         Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_stdio_config.h
+         Note: including file:      C:\CoinDir\include\Inventor/C/base/rbptree.h
+         Note: including file:       F:\Microsoft Visual Studio\VC\include\stdarg.h
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:    C:\CoinDir\include\Inventor/SoLists.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SbIntList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoBaseList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoDetailList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoEnabledElementsList.h
+         Note: including file:      C:\CoinDir\include\Inventor/lists/SoTypeList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoEngineOutputList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoEngineList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoFieldList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoNodeList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoPathList.h
+         Note: including file:     C:\CoinDir\include\Inventor/lists/SoPickedPointList.h
+         Note: including file:   C:\CoinDir\include\Inventor/C/tidbits.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoMFVec3f.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoMField.h
+         Note: including file:    C:\CoinDir\include\Inventor/fields/SoField.h
+         Note: including file:     C:\CoinDir\include\Inventor/fields/SoSField.h
+         Note: including file:      C:\CoinDir\include\Inventor/fields/SoField.h
+         Note: including file:     C:\CoinDir\include\Inventor/fields/SoMField.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoSubField.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\assert.h
+         Note: including file:    C:\CoinDir\include\Inventor/SoInput.h
+         Note: including file:     C:\CoinDir\include\Inventor/SoDB.h
+         Note: including file:      C:\CoinDir\include\Inventor/SbString.h
+         Note: including file:       C:\CoinDir\include\Inventor/C/base/string.h
+         Note: including file:      C:\CoinDir\include\Inventor/sensors/SoSensorManager.h
+         Note: including file:    C:\CoinDir\include\Inventor/SoOutput.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbVec3f.h
+         Note: including file:    C:\CoinDir\include\Inventor/errors/SoDebugError.h
+         Note: including file:     C:\CoinDir\include\Inventor/errors/SoError.h
+         Note: including file:      C:\CoinDir\include\Inventor/C/errors/error.h
+         Note: including file:     C:\CoinDir\include\Inventor/C/errors/debugerror.h
+         Note: including file: C:\CoinDir\include\Inventor/nodes/SoMaterial.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoMFColor.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbColor.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoMFFloat.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoSFFloat.h
+         Note: including file:  C:\CoinDir\include\Inventor/tools/SbPimplPtr.h
+         Note: including file: C:\CoinDir\include\Inventor/nodes/SoSeparator.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoSFEnum.h
+         Note: including file:  C:\CoinDir\include\Inventor/nodes/SoGroup.h
+         Note: including file: C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
+         Note: including file:  F:\Microsoft Visual Studio\VC\include\excpt.h
+         Note: including file:   F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\ctype.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wctype.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\cderr.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dde.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\ddeml.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dlgs.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\lzexpand.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mciapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi2.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\playsoundapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\timeapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\joystickapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\nb30.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdce.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdcep.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcnterr.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcasync.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winefs.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h
+         Note: including file:    c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsip.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcsal.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winsmcrd.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winspool.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\um\unknwn.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\um\oleidl.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\um\servprov.h
+         Note: including file:     c:\program files (x86)\windows kits\8.1\include\um\msxml.h
+         Note: including file:      c:\program files (x86)\windows kits\8.1\include\um\oaidl.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleauto.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+         Note: including file: F:\Microsoft Visual Studio\VC\include\fstream
+         Note: including file:  F:\Microsoft Visual Studio\VC\include\istream
+         Note: including file:   F:\Microsoft Visual Studio\VC\include\ostream
+         Note: including file:    F:\Microsoft Visual Studio\VC\include\ios
+         Note: including file:     F:\Microsoft Visual Studio\VC\include\xlocnum
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\climits
+         Note: including file:       F:\Microsoft Visual Studio\VC\include\yvals.h
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\xkeycheck.h
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\crtdefs.h
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\use_ansi.h
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\cmath
+         Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h
+         Note: including file:       F:\Microsoft Visual Studio\VC\include\xtgmath.h
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\xtr1common
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\cstdlib
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\cstdio
+         Note: including file:      F:\Microsoft Visual Studio\VC\include\streambuf
+         Note: including file:       F:\Microsoft Visual Studio\VC\include\xiosbase
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\xlocale
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\cstring
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\stdexcept
+         Note: including file:          F:\Microsoft Visual Studio\VC\include\exception
+         Note: including file:           F:\Microsoft Visual Studio\VC\include\type_traits
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\xstddef
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\cstddef
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\initializer_list
+         Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\malloc.h
+         Note: including file:           F:\Microsoft Visual Studio\VC\include\vcruntime_exception.h
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\eh.h
+         Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_terminate.h
+         Note: including file:          F:\Microsoft Visual Studio\VC\include\xstring
+         Note: including file:           F:\Microsoft Visual Studio\VC\include\xmemory0
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\cstdint
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\stdint.h
+         Note: including file:              F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\limits
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\ymath.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\cfloat
+         Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\float.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\cwchar
+         Note: including file:              C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\wchar.h
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wconio.h
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wdirect.h
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wio.h
+         Note: including file:                C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_share.h
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wprocess.h
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wtime.h
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\sys/stat.h
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\new
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\vcruntime_new.h
+         Note: including file:              F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\xutility
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\utility
+         Note: including file:              F:\Microsoft Visual Studio\VC\include\iosfwd
+         Note: including file:               C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\crtdbg.h
+         Note: including file:                F:\Microsoft Visual Studio\VC\include\vcruntime_new_debug.h
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\xatomic0.h
+         Note: including file:            F:\Microsoft Visual Studio\VC\include\intrin.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\setjmp.h
+         Note: including file:              F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\immintrin.h
+         Note: including file:              F:\Microsoft Visual Studio\VC\include\wmmintrin.h
+         Note: including file:               F:\Microsoft Visual Studio\VC\include\nmmintrin.h
+         Note: including file:                F:\Microsoft Visual Studio\VC\include\smmintrin.h
+         Note: including file:                 F:\Microsoft Visual Studio\VC\include\tmmintrin.h
+         Note: including file:                  F:\Microsoft Visual Studio\VC\include\pmmintrin.h
+         Note: including file:                   F:\Microsoft Visual Studio\VC\include\emmintrin.h
+         Note: including file:                    F:\Microsoft Visual Studio\VC\include\xmmintrin.h
+         Note: including file:                     F:\Microsoft Visual Studio\VC\include\mmintrin.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\ammintrin.h
+         Note: including file:             F:\Microsoft Visual Studio\VC\include\mm3dnow.h
+         Note: including file:              F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\typeinfo
+         Note: including file:          F:\Microsoft Visual Studio\VC\include\vcruntime_typeinfo.h
+         Note: including file:           F:\Microsoft Visual Studio\VC\include\vcruntime.h
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\xlocinfo
+         Note: including file:          F:\Microsoft Visual Studio\VC\include\xlocinfo.h
+         Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\locale.h
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\xfacet
+         Note: including file:        F:\Microsoft Visual Studio\VC\include\system_error
+         Note: including file:         F:\Microsoft Visual Studio\VC\include\cerrno
+         Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\share.h
+         Note: including file: F:\Microsoft Visual Studio\VC\include\string
+         Note: including file: F:\Microsoft Visual Studio\VC\include\iostream
+         Note: including file: C:\CoinDir\include\Inventor\nodes\SoPointSet.h
+         Note: including file:  C:\CoinDir\include\Inventor/nodes/SoNonIndexedShape.h
+         Note: including file:   C:\CoinDir\include\Inventor/nodes/SoVertexShape.h
+         Note: including file:    C:\CoinDir\include\Inventor/nodes/SoShape.h
+         Note: including file:     C:\CoinDir\include\Inventor/SbMatrix.h
+         Note: including file:     C:\CoinDir\include\Inventor/SbVec2s.h
+         Note: including file:     C:\CoinDir\include\Inventor/SbBox3f.h
+         Note: including file:    C:\CoinDir\include\Inventor/fields/SoSFNode.h
+         Note: including file:    C:\CoinDir\include\Inventor/nodes/SoVertexProperty.h
+         Note: including file:     C:\CoinDir\include\Inventor/fields/SoMFUInt32.h
+         Note: including file:     C:\CoinDir\include\Inventor/fields/SoMFVec2f.h
+         Note: including file:      C:\CoinDir\include\Inventor/SbVec2f.h
+         Note: including file:     C:\CoinDir\include\Inventor/nodes/SoNormalBinding.h
+         Note: including file:      C:\CoinDir\include\Inventor/elements/SoNormalBindingElement.h
+         Note: including file:       C:\CoinDir\include\Inventor/elements/SoInt32Element.h
+         Note: including file:        C:\CoinDir\include\Inventor/elements/SoSubElement.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\assert.h
+         Note: including file:         C:\CoinDir\include\Inventor/elements/SoElement.h
+         Note: including file:          C:\CoinDir\include\Inventor/misc/SoState.h
+         Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\assert.h
+         Note: including file:     C:\CoinDir\include\Inventor/nodes/SoMaterialBinding.h
+         Note: including file:      C:\CoinDir\include\Inventor/elements/SoMaterialBindingElement.h
+         Note: including file:     C:\CoinDir\include\Inventor/nodes/SoTextureCoordinateBinding.h
+         Note: including file:      C:\CoinDir\include\Inventor/elements/SoTextureCoordinateBindingElement.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoSFInt32.h
+         Note: including file: C:\CoinDir\include\Inventor/Win/SoWin.h
+         Note: including file:  C:\CoinDir\include\Inventor/Win/SoWinBasic.h
+         Note: including file:  C:\CoinDir\include\Inventor/SbLinear.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbVec3s.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbVec4f.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbSphere.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbRotation.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbLine.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbCylinder.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbPlane.h
+         Note: including file:   C:\CoinDir\include\Inventor/SbViewVolume.h
+         Note: including file:    C:\CoinDir\include\Inventor/SbDPViewVolume.h
+         Note: including file:     C:\CoinDir\include\Inventor/SbVec3d.h
+         Note: including file: C:\CoinDir\include\Inventor/nodes/SoTransform.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoSFRotation.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoSFVec3f.h
+         Note: including file:  C:\CoinDir\include\Inventor/nodes/SoTransformation.h
+         Note: including file: C:\CoinDir\include\Inventor/Win/viewers/SoWinExaminerViewer.h
+         Note: including file:  C:\CoinDir\include\Inventor/Win/viewers/SoWinFullViewer.h
+         Note: including file:   C:\CoinDir\include\Inventor/Win/viewers/SoWinViewer.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h
+         Note: including file:    C:\CoinDir\include\Inventor/SbTime.h
+         Note: including file:    C:\CoinDir\include\Inventor/Win/SoWinRenderArea.h
+         Note: including file:     C:\CoinDir\include\Inventor/SbViewportRegion.h
+         Note: including file:     C:\CoinDir\include\Inventor/actions/SoGLRenderAction.h
+         Note: including file:      C:\CoinDir\include\Inventor/actions/SoAction.h
+         Note: including file:       C:\CoinDir\include\Inventor/misc/SoTempPath.h
+         Note: including file:        C:\CoinDir\include\Inventor/SoFullPath.h
+         Note: including file:         C:\CoinDir\include\Inventor/SoPath.h
+         Note: including file:          C:\CoinDir\include\Inventor/SoFullPath.h
+         Note: including file:          C:\CoinDir\include\Inventor/misc/SoLightPath.h
+         Note: including file:       C:\CoinDir\include\Inventor/lists/SoActionMethodList.h
+         Note: including file:      C:\CoinDir\include\Inventor/actions/SoSubAction.h
+         Note: including file:     C:\CoinDir\include\Inventor/SoSceneManager.h
+         Note: including file:     C:\CoinDir\include\Inventor/Win/SoWinGLWidget.h
+         Note: including file:      C:\CoinDir\include\Inventor/Win/SoWinComponent.h
+         Note: including file:       C:\CoinDir\include\Inventor/Win/SoWinObject.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\assert.h
+         Note: including file:    C:\CoinDir\include\Inventor/events/SoKeyboardEvent.h
+         Note: including file:     C:\CoinDir\include\Inventor/events/SoButtonEvent.h
+         Note: including file:      C:\CoinDir\include\Inventor/events/SoSubEvent.h
+         Note: including file:       C:\CoinDir\include\Inventor/events/SoEvent.h
+         Note: including file: C:\CoinDir\include\Inventor/nodes/SoDrawStyle.h
+         Note: including file:  C:\CoinDir\include\Inventor/elements/SoDrawStyleElement.h
+         Note: including file:  C:\CoinDir\include\Inventor/fields/SoSFUShort.h
+         Note: including file: C:\CoinDir\include\Inventor\nodes\SoComplexity.h
+         Note: including file:  C:\CoinDir\include\Inventor/elements/SoComplexityTypeElement.h
+         Note: including file: C:\CoinDir\include\Inventor\nodes\SoNurbsCurve.h
+         Note: including file: C:\CoinDir\include\CoinPipes.h
+         Note: including file:  C:\CoinDir\include\Inventor/nodes/SoCylinder.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoSFBitMask.h
+         Note: including file:  C:\CoinDir\include\Inventor/nodes/SoLineSet.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoMFInt32.h
+         Note: including file:  C:\CoinDir\include\Inventor\actions\SoWriteAction.h
+         Note: including file:   C:\CoinDir\include\Inventor/tools/SbLazyPimplPtr.h
+         Note: including file:  C:\CoinDir\include\Inventor\nodes\SoText2.h
+         Note: including file:   C:\CoinDir\include\Inventor/fields/SoMFString.h
+     1>i:\desktop\ongc\hello_code\hello_code\curves.cpp(44): warning C4305: 'argument': truncation from 'double' to 'float'
+       Link:
+         F:\Microsoft Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\Desktop\ONGC\hello_code\Debug\hello_code.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\CoinDir\lib /LIBPATH:C:\CoinDir\bin /LIBPATH:C:\CoinDir\bin /LIBPATH:C:\CoinDir\lib /ALLOWBIND coin3d.lib sowin1d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"I:\Desktop\ONGC\hello_code\Debug\hello_code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\Desktop\ONGC\hello_code\Debug\hello_code.lib" /MACHINE:X86 Debug\Curves.obj
+         hello_code.vcxproj -> I:\Desktop\ONGC\hello_code\Debug\hello_code.exe
+     1>Done Building Project "I:\Desktop\ONGC\hello_code\hello_code\hello_code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.35
