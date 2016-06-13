@@ -11,25 +11,26 @@
 #include <Inventor/Win/viewers/SoWinExaminerViewer.h>
 #include <Inventor/nodes/SoDrawStyle.h>
 #include<CoinPipes.h>
-#include<Inventor\nodes\SoCylinder.h>
+#include<Inventor\nodes\SoSphere.h>
 #pragma comment(linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"")
-//SoSeparator* getcylinder(SbVec3f position)
-//{
-//	SoSeparator *root = new SoSeparator;
-//	SoTransform *trans = new SoTransform;
-//	trans->translation.setValue(position);
-//	SoCylinder *cylinder = new SoCylinder;
-//	cylinder->radius = 7;
-//	cylinder->height = 17;
-//	root->addChild(trans);
-//	root->addChild(cylinder);
-//	return root;
-//}
+SoSeparator* getsphere(SbVec3f position)
+{
+	SoSeparator *root = new SoSeparator;
+	SoTransform *trans = new SoTransform;
+	trans->translation.setValue(position);
+	SoSphere *sphere = new SoSphere;
+	
+	sphere->radius.setValue(7);
+	root->addChild(trans);
+	root->addChild(sphere);
+	return root;
+}
 SoSeparator *getDiag(char* filename,float &big)
 {
 	std::ifstream file;
 	file.open(filename);
 	std::string word;
+	SoSeparator *diag = new SoSeparator;
 	SbVec3f pointarray[2500];
 	int point_index = 0, i = 0;
 	float temp[3];
@@ -40,14 +41,13 @@ SoSeparator *getDiag(char* filename,float &big)
 		if (i == 3)
 		{
 			pointarray[point_index] = SbVec3f(temp);
-			//root->addChild(getcylinder(temp));
+			diag->addChild(getsphere(temp));
 			i = 0;
 			point_index++;
 		}
 		temp[i++] = cord;
 	}
 	pointarray[point_index] = SbVec3f(temp);
-	SoSeparator *diag = new SoSeparator;
 	SoCoordinate3 *coord = new SoCoordinate3();
 	SoPointSet *points = new SoPointSet;
 	SoMaterial *color = new SoMaterial;
@@ -58,8 +58,8 @@ SoSeparator *getDiag(char* filename,float &big)
 	points->numPoints.setValue(point_index);
 	diag->addChild(pointdraw);
 	diag->addChild(color);
-	diag->addChild(coord);
-	diag->addChild(points);
+	/*diag->addChild(coord);
+	diag->addChild(points);*/
 	return diag;
 }
 int main(int, char **argv)

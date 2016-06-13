@@ -86,13 +86,13 @@ int main(int, char **argv)
 	//Z- axis co-ordinate
 	 SbVec3f zvert[2] = { SbVec3f(0,0,Z_MAX),SbVec3f(0,0,0) };
 	//X-Y axis co-ordinate
-	 SbVec3f xyvert[3] = { SbVec3f(0,Y_MAX,0),SbVec3f(X_MAX,Y_MAX,0),SbVec3f(X_MAX,0,0) };
+	 SbVec3f xyvert[12] = { SbVec3f(0,Y_MAX,0),SbVec3f(X_MAX,Y_MAX,0),SbVec3f(X_MAX,0,0),SbVec3f(X_MAX,0,Z_MAX),SbVec3f(0,0,Z_MAX),SbVec3f(0,Y_MAX,Z_MAX),SbVec3f(0,Y_MAX,0),SbVec3f(X_MAX,Y_MAX,0),SbVec3f(X_MAX,Y_MAX,Z_MAX),SbVec3f(0,Y_MAX,Z_MAX),SbVec3f(X_MAX,Y_MAX,Z_MAX),SbVec3f(X_MAX,0,Z_MAX) };
 
 	root->ref();
 	root->addChild(drawLines(xvert,2, SbColor(1,0,0), "X-axis", 4.0, SbVec3f(X_MAX/2,-5,0)));
-	root->addChild(drawLines(yvert, 2,SbColor(0, 1,0), "Y-axis", 4.0,SbVec3f(-15, Y_MAX/2, 0)));
+	root->addChild(drawLines(yvert, 2,SbColor(0, 1,0), "Y-axis", 4.0,SbVec3f(-8, Y_MAX/2, 0)));
 	root->addChild(drawLines(zvert,2, SbColor(0, 0, 1), "Z-axis", 4.0,SbVec3f(0, -5, Z_MAX/2)));
-	root->addChild(drawLines(xyvert, 3,SbColor(0, 1, 1), "", 2.0, SbVec3f(0, 0,0)));
+	root->addChild(drawLines(xyvert, 12,SbColor(0, 1, 1), "", 2.0, SbVec3f(0, 0,0)));
 	//steps
 	drawSteps(root, SbColor(0,0,1), SbColor(0, 1,0),1, 0, 0);
 	drawSteps(root, SbColor(1,0,0), SbColor(0, 0, 1),0, 1, 0);
